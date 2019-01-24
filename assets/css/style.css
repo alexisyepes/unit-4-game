@@ -10,14 +10,27 @@ background-image: url("../images/crystalBackground.jpg");
 }
 
 #instructions {
-    text-align: center;
-    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
     line-height: 25px;
-    margin-top: -10px;
     font-family: 'Abril Fatface', cursive;
     background-color: white;
+    padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
 
+}
+
+#instrTitle {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(9, 18, 145);
+    color: white;
 }
 
 #targetNumber {
@@ -107,17 +120,73 @@ background-color: rgb(21, 22, 22) !important;
 
 }
 
-h1 {
-    font-size: 40px;
-    background-color: rgb(0, 153, 255);
-    color: white !important;
-    font-weight: bold !important;
-    padding: 20px;
-
-}
 
 #outcome {
     font-size: 100px;
     color: white;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+
+    #instructions {
+        width: 600px;
+        color: white;
+        margin: auto;
+        padding: 30px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: -10px;
+        font-family: 'Abril Fatface', cursive;
+        background-color: rgb(66, 79, 134);
+        padding-bottom: 15px;
+    
+    }
+
+    #instrTitle {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    #instructions {
+        width: 600px;
+        color: white;
+        margin: auto;
+        padding: 30px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: -10px;
+        font-family: 'Abril Fatface', cursive;
+        background-color: rgb(66, 79, 134);
+        padding-bottom: 15px;
+    
+    }
+
+    #instrTitle {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    
+
+    #heading {
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
+    #buttons {
+        width: 50px;
+    }
+
+    #game {
+        width: 100%;
+    }
 }
