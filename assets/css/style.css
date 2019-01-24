@@ -151,15 +151,13 @@ background-color: rgb(21, 22, 22) !important;
 
 @media only screen and (max-width: 500px) {
 
-    #instructions {
-        width: 100%;
+    #instructions, #end {
+        width: 220px;
         color: white;
-        margin: auto;
-        padding: 30px;
-        text-align: left;
-        font-size: 18px;
-        line-height: 25px;
-        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 15px;
         font-family: 'Abril Fatface', cursive;
         background-color: rgb(66, 79, 134);
         padding-bottom: 15px;
@@ -174,7 +172,7 @@ background-color: rgb(21, 22, 22) !important;
     
 
     #heading {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
